@@ -1,24 +1,22 @@
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
 
-# (Replace_with_your_title) Cookbook
+# Chicago Data Blend Cookbook
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
+[![nightly-build](https://github.com/mgrover1/chicago-data-blend/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/mgrover1/chicago-data-blend/actions/workflows/nightly-build.yaml)
+[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/mgrover1/chicago-data-blend/main?labpath=notebooks)
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
 
 ## Motivation
-
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+We would like to blend models and observations of weather/climate around Chicago!
 
 ## Authors
 
-[First Author](@first-author), [Second Author](@second-author), etc. _Acknowledge primary content authors here_
+[Max Grover](@mgrover1)
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/mgrover1/chicago-data-blend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mgrover1/chicago-data-blend" />
 </a>
 
 ## Structure
@@ -60,20 +58,20 @@ If you are interested in running this material locally on your computer, you wil
 
 (Replace "cookbook-example" with the title of your cookbooks)
 
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/mgrover1/chicago-data-blend` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/mgrover1/chicago-data-blend.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `chicago-data-blend` directory
    ```bash
-   cd cookbook-example
+   cd chicago-data-blend
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate chicago-data-blend-dev
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
