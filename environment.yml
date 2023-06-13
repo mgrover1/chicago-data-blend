@@ -1,8 +1,10 @@
-name: cookbook-dev
+name: chicago-data-blend-dev
 channels:
   - conda-forge
 dependencies:
   - jupyter-book
+  - herbie-data
+  - xarray
   - jupyterlab
   - jupyter_server<2
   - pip
